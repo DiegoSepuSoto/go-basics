@@ -1,0 +1,9 @@
+version: "3"
+services:
+  go:
+    build:
+      context: .
+    container_name: go-api
+    image: diegosepusoto/go-api:0.0.1
+    ports:
+      - 3000:3000
